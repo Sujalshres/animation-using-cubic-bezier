@@ -1,0 +1,60 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+    background-color: black;
+}
+
+.container
+{
+    display: flex;
+    /* width: 620px; */
+    height: 310px;
+
+    margin:auto;
+    gap: 50px;
+
+}
+
+.item
+{
+    width: 100px;
+    
+    position: relative;
+    
+    overflow: hidden;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    filter: grayscale();
+    transition: all 0.3s cubic-bezier(.99,-0.4,.08,1.48);
+}
+
+.item:hover
+{
+    width: 200px;
+    filter: grayscale(0);
+}
+
+/* .item1 */
+
+.item2
+{
+    width: 250px;
+}
+/* .item3 */
+.item4
+{
+    width: 260px;
+}
